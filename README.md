@@ -12,10 +12,10 @@ _C(n, r) = n! / ( (n - r)! x r! )_.
 ```
 ## Examples 
  ```javascript
- Math.factorial(7, 5) // 21
+ Math.combinations(7, 5) // 21
  Math.combinations(5, 5) // 1
- Math.factorial(7, 1) // 7
- Math.factorial(-5) // error
- Math.factorial(5, -5) // error
- Math.factorial(5, 10) // error
+ Math.combinations(7, 1) // 7
+ Math.combinations(-5) // error
+ Math.combinations(5, -5) // error
+ Math.combinations(5, 10) // error
 ```
